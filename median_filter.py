@@ -1,5 +1,5 @@
 """
-    Apply median filter for sounds. Completed for Computational Methods module of Trinity College Dublin.
+    Applies median filter for sounds. Developed for Computational Methods module of Trinity College Dublin.
     Author: Ali Camdal
 """
 
