@@ -8,7 +8,9 @@ pip3 install -r requirements.txt
 ```
 ## Degradation and Detection Scripts
 Filter needs degraded sound file and the binary file of the positions of distortion. These files can be created using degradation.py and detection.py which are located under the scripts folder.
-Clean .wav file can be degraded with the certain number of noise. Details can be found in degradation.py
+<br/>
+Clean .wav file can be degraded with the certain number of noise. Details can be found in degradation.py.
+<br/>
 The positions of the distortion can be located using detection.py script. This script takes degraded .wav file and find the positions. Output of the detection script is a binary file with the extension of .raw.
 
 ## Example Usage for Median Filter
