@@ -18,3 +18,9 @@ Filter takes several arguments. These are input file, detection binary file, fil
 ```
 python3 median_filter.py input_file.wav detection.raw 15 output.wav
 ```
+## Example Signals
+As can be seen in below signal has distortions which are marked with red dots. Aim of the median filter is remove those particular signals.
+<img src="static/degraded.png"/>
+<br/>
+After median filter, as can be seen below, those distortions have been removed from signal.
+<img src="static/cleared.png"/>
